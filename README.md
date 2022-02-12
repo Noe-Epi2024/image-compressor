@@ -2,15 +2,15 @@
 
 From a file listing all the pixels of the image with their position and color, regroup them into a given number of clusters, according to their colors.
 
-## Description
+## Usage
 
-Area is a web and mobile application who reunite multiple functionalities in one place.
-<br>
-The aim is to facilitate your daily question, like "do i need to take a coat to go outside today ?"
-
-> List of our functionalities:
-
-•
+```bash
+./imageCompressor
+USAGE: ./imageCompressor -n N -l L -f F
+  N number of colors in the final image
+  L convergence limit
+  F path to the file containing the colors of the pixels
+```
 
 ## Getting Started
 ![](https://img.shields.io/badge/Code-Haskell-informational?style=flat&logo=haskell&logoColor=white&color=55C2E1)
